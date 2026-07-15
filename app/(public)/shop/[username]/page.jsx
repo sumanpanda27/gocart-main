@@ -36,6 +36,7 @@ export default function StoreShop() {
                         className="size-32 sm:size-38 object-cover border-2 border-slate-100 rounded-md"
                         width={200}
                         height={200}
+                        loading="eager"
                     />
                     <div className="text-center md:text-left">
                         <h1 className="text-3xl font-semibold text-slate-800">{storeInfo.name}</h1>
@@ -50,7 +51,7 @@ export default function StoreShop() {
                                 <MailIcon className="w-4 h-4 text-gray-500 mr-2" />
                                 <span>{storeInfo.email}</span>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
